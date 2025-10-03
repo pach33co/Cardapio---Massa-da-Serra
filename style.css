@@ -32,7 +32,7 @@ body {
 
 .top-content-nav {
     display: flex;
-    padding: 24px 16px 24px 16px;
+    padding: 24px 24px 24px 16px;
     flex-direction: column;
     align-items: center;
     gap: 16px;
@@ -157,8 +157,8 @@ body {
 }
 
 .main-icon-button .main-icon-button-selected img {
-    width: 32px;
-    height: 32px;
+    width: 28px;
+    height: 28px;
     margin-bottom: 4px;
 }
 
@@ -413,13 +413,10 @@ p {
     flex-direction: column;
     align-items: flex-start;
     gap: 16px;
-}
-
-.banner-product img {
-    width: 100%;
-    height: auto;
+    border: 1px solid #D2D2D2;
     border-radius: 8px;
-    object-fit: cover;
+    padding: 16px;
+    background: #F8F8F8;
 }
 
 /* ========= PÁGINA PESQUISA ========= */
